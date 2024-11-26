@@ -27,3 +27,9 @@ This file provides:
 - Research GitHub API
 - Test endpoints in Postman
 - Document results and troubleshooting
+
+## **How to use the exported Postman collection**
+1. Create a Postman environment and add the following variable:
+   - Variable Name: token
+   - Value: Your GitHub Personal Access Token (PAT)
+2. Select the environment before running requests.
