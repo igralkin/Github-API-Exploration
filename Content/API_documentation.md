@@ -17,7 +17,9 @@ Overview of the GitHub API tested endpoints.
 - `page` (optional): Page number (default: 1).
 
 **Example Request**:
-### GET https://api.github.com/search/repositories?q=machine+learning&sort=stars&order=desc&per_page=10&page=1
+```
+GET https://api.github.com/search/repositories?q=machine+learning&sort=stars&order=desc&per_page=10&page=1
+```
 
 **Key response fields**:
 - `total_count`: Total repositories matching the query.
@@ -39,7 +41,9 @@ Overview of the GitHub API tested endpoints.
 - `page` (optional): Page number (default: 1).
 
 **Example Request**:
-### GET https://api.github.com/repos/octocat/hello-world/commits?per_page=10&page=1
+```
+GET https://api.github.com/repos/octocat/hello-world/commits?per_page=10&page=1
+```
 
 **Key response fields**:
 - `sha`: Commit hash.
@@ -59,7 +63,9 @@ Overview of the GitHub API tested endpoints.
 - `path` (required): Path to the file/folder (e.g., `README`).
 
 **Example Request**:
-### GET https://api.github.com/repos/octocat/hello-world/contents/README
+```
+GET https://api.github.com/repos/octocat/hello-world/contents/README
+```
 
 **Key response fields**:
 - **File**:
