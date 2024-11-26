@@ -16,7 +16,6 @@ This guide addresses common issues encountered while working with the GitHub API
   - Check response headers: `X-RateLimit-Remaining` and `X-RateLimit-Reset`.
   - Wait until the reset time or reduce request frequency.
 
----
 
 ## 2. Pagination Issues
 ### Problem: Missing Results
@@ -24,7 +23,6 @@ This guide addresses common issues encountered while working with the GitHub API
 - **Solution**:
   - Use `per_page` (max 100) and `page` parameters to fetch additional results.
 
----
 
 ## 3. Missing or Unexpected Data
 ### Problem: Fields not in Response
@@ -33,7 +31,6 @@ This guide addresses common issues encountered while working with the GitHub API
   - Verify endpoint response with the API documentation.
   - Inspect raw responses in Postman.
 
----
 
 ## 4. Rate Limits
 ### Problem: Too Many Requests
@@ -42,7 +39,6 @@ This guide addresses common issues encountered while working with the GitHub API
   - Monitor `X-RateLimit-Remaining` and delay requests if needed.
   - Authenticate with a token for increased limits (5,000 requests/hour).
 
----
 
 ## 5. Miscellaneous Errors
 ### Problem: 404 Not Found
@@ -55,11 +51,8 @@ This guide addresses common issues encountered while working with the GitHub API
 - **Solution**:
   - Validate parameters with API documentation.
 
----
 
 ## Best Practices
 1. Use a valid Personal Access Token (PAT) for authentication.
 2. Handle pagination and rate limits gracefully.
 3. Test endpoints and save responses for debugging.
-
----
