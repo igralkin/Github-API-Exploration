@@ -1,4 +1,4 @@
-# Github-API-Exploration
+# Github API Exploration
 
 The repository contains the API analysis and test results for the GitHub API/
 
@@ -33,3 +33,9 @@ This file provides:
    - Variable Name: token
    - Value: Your GitHub Personal Access Token (PAT)
 2. Select the environment before running requests.
+
+## **Google Colab Integration**
+The repository includes a Colab notebook (`Github_API_usage.ipynb`) demonstrating the GitHub API interactions. To use:
+1. Open the notebook in [Google Colab](https://colab.research.google.com/).
+2. Enter your Personal Access Token (PAT) when prompted.
+3. Run the provided examples to test the functionality.
