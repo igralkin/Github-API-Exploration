@@ -15,13 +15,14 @@ The goal of this assignment was to:
 4. Document the process and results in a clear and organized manner.
 
 ## **Repository structure**
-
-### **1. README.md**
-This file provides:
-- An overview of the project.
-- Descriptions of each part of the test.
-- Reflections on the assignment.
-
+- README.md
+- /Content
+    - API_Documentation.md
+    - troubleshooting_guide.md
+    - Github_API_usage.py
+    - Github_API_usage.ipynb
+- /Postman_Collection
+    - GitHub API Test.postman_collection.json
   
 ## **Steps to complete the assignment**
 - Research GitHub API
