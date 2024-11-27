@@ -14,6 +14,46 @@ The goal of this assignment was to:
 3. Troubleshoot common API-related issues such as authentication, pagination, and rate limits.
 4. Document the process and results in a clear and organized manner.
 
+## **Client Requirements**
+
+The following requirements were assumed to address the needs of the client for analyzing GitHub repositories and their data:
+
+1. **Search for Public Repositories**
+   - The client requires a way to search GitHub for public repositories based on keywords.
+   - Results should include:
+     - Repository name.
+     - Number of stars.
+     - Repository URL.
+   - Support sorting by stars, forks, or update time.
+   - Allow pagination and limit the total number of results fetched.
+
+2. **Retrieve Commits for a Specific Repository**
+   - The client requires a method to fetch commit history for any given repository.
+   - Results should include:
+     - Commit SHA.
+     - Commit message.
+     - Commit author and timestamp.
+   - Support pagination to handle repositories with long commit histories.
+
+3. **Access File or Folder Contents**
+   - The client requires functionality to fetch metadata or contents of a specific file or folder within a repository.
+   - Results should include:
+     - File name, path, and type (`file` or `dir`).
+     - Base64-encoded content for files.
+
+4. **Handle API Rate Limits**
+   - The client needs robust error handling for GitHub API rate limits.
+   - The solution should:
+     - Pause execution when rate limits are exceeded.
+     - Automatically retry the request once limits are reset.
+
+5. **Documentation and Reproducibility**
+   - The client expects comprehensive documentation for:
+     - API endpoints used.
+     - Error handling strategies.
+     - Steps to reproduce the project in Postman, Python, or Colab.
+
+
 ## **Repository structure**
 - README.md
 - /Content
