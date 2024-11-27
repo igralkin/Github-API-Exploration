@@ -80,3 +80,7 @@ The repository includes a Colab notebook (`Github_API_usage.ipynb`) demonstratin
 1. Open the notebook in [Google Colab](https://colab.research.google.com/).
 2. Enter your Personal Access Token (PAT) when prompted.
 3. Run the provided examples to test the functionality.
+
+## **Reflection**
+
+This project helped me understand how to work with APIs, handle rate limits, and use pagination effectively. It also improved my skills in documenting processes and ensuring reproducibility.
